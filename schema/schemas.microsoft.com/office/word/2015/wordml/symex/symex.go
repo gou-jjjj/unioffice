@@ -14,7 +14,8 @@ package symex
 import (
 	_e "encoding/xml"
 	_a "fmt"
-	_cd "unioffice"
+
+	_cd "github.com/gou-jjjj/unioffice"
 )
 
 type CT_SymEx struct {

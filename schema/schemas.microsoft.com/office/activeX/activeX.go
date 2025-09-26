@@ -14,8 +14,9 @@ package activeX
 import (
 	_gf "encoding/xml"
 	_gb "fmt"
-	_ab "unioffice"
-	_a "unioffice/common/logger"
+
+	_ab "github.com/gou-jjjj/unioffice"
+	_a "github.com/gou-jjjj/unioffice/common/logger"
 )
 
 func NewCT_OcxPr() *CT_OcxPr { _dg := &CT_OcxPr{}; _dg.OcxPrChoice = NewCT_OcxPrChoice(); return _dg }

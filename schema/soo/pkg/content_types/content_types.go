@@ -15,8 +15,9 @@ import (
 	_b "encoding/xml"
 	_e "fmt"
 	_c "regexp"
-	_d "unioffice"
-	_cg "unioffice/common/logger"
+
+	_d "github.com/gou-jjjj/unioffice"
+	_cg "github.com/gou-jjjj/unioffice/common/logger"
 )
 
 type Override struct{ CT_Override }

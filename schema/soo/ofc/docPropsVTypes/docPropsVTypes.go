@@ -17,9 +17,10 @@ import (
 	_g "regexp"
 	_d "strconv"
 	_c "time"
-	_ed "unioffice"
-	_a "unioffice/common/logger"
-	_f "unioffice/schema/soo/ofc/sharedTypes"
+
+	_ed "github.com/gou-jjjj/unioffice"
+	_a "github.com/gou-jjjj/unioffice/common/logger"
+	_f "github.com/gou-jjjj/unioffice/schema/soo/ofc/sharedTypes"
 )
 
 func (_ab *Array) MarshalXML(e *_e.Encoder, start _e.StartElement) error {

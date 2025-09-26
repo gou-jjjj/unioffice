@@ -14,8 +14,9 @@ package lockedCanvas
 import (
 	_d "encoding/xml"
 	_c "fmt"
-	_b "unioffice"
-	_dc "unioffice/schema/soo/dml"
+
+	_b "github.com/gou-jjjj/unioffice"
+	_dc "github.com/gou-jjjj/unioffice/schema/soo/dml"
 )
 
 func NewLockedCanvas() *LockedCanvas {

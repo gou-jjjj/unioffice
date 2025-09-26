@@ -13,9 +13,10 @@ package picture
 
 import (
 	_e "encoding/xml"
-	_bg "unioffice"
-	_b "unioffice/common/logger"
-	_a "unioffice/schema/soo/dml"
+
+	_bg "github.com/gou-jjjj/unioffice"
+	_b "github.com/gou-jjjj/unioffice/common/logger"
+	_a "github.com/gou-jjjj/unioffice/schema/soo/dml"
 )
 
 func (_eb *CT_Picture) MarshalXML(e *_e.Encoder, start _e.StartElement) error {

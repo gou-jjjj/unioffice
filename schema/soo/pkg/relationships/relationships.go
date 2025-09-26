@@ -14,8 +14,9 @@ package relationships
 import (
 	_f "encoding/xml"
 	_fd "fmt"
-	_d "unioffice"
-	_ge "unioffice/common/logger"
+
+	_d "github.com/gou-jjjj/unioffice"
+	_ge "github.com/gou-jjjj/unioffice/common/logger"
 )
 
 func (_ebb ST_TargetMode) Validate() error { return _ebb.ValidateWithPath("") }

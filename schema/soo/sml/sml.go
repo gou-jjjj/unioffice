@@ -17,10 +17,11 @@ import (
 	_dd "strconv"
 	_d "strings"
 	_g "time"
-	_ff "unioffice"
-	_ae "unioffice/common/logger"
-	_fc "unioffice/schema/soo/dml/spreadsheetDrawing"
-	_b "unioffice/schema/soo/ofc/sharedTypes"
+
+	_ff "github.com/gou-jjjj/unioffice"
+	_ae "github.com/gou-jjjj/unioffice/common/logger"
+	_fc "github.com/gou-jjjj/unioffice/schema/soo/dml/spreadsheetDrawing"
+	_b "github.com/gou-jjjj/unioffice/schema/soo/ofc/sharedTypes"
 )
 
 // ValidateWithPath validates the CT_ExternalBook and its children, prefixing error messages with path

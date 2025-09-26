@@ -15,14 +15,15 @@ import (
 	_d "bytes"
 	_aa "encoding/binary"
 	_a "fmt"
-	_aaa "github.com/richardlehane/msoleps/types"
 	_fde "io"
 	_cf "os"
 	_b "strconv"
 	_c "time"
 	_fd "unicode"
 	_fe "unicode/utf16"
-	_af "unioffice/internal/mscfb/rw"
+
+	_af "github.com/gou-jjjj/unioffice/internal/mscfb/rw"
+	_aaa "github.com/richardlehane/msoleps/types"
 )
 
 func (_bfg *File) stream(_eef int) ([][2]int64, error) {

@@ -15,7 +15,8 @@ import (
 	_f "fmt"
 	_a "strconv"
 	_b "strings"
-	_aa "unioffice/schema/soo/wml"
+
+	_aa "github.com/gou-jjjj/unioffice/schema/soo/wml"
 )
 
 func _ad(_fee string) (_bc []string) {

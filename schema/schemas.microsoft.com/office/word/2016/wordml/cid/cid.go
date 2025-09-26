@@ -15,8 +15,9 @@ import (
 	_e "encoding/xml"
 	_f "fmt"
 	_d "strconv"
-	_af "unioffice"
-	_ee "unioffice/common/logger"
+
+	_af "github.com/gou-jjjj/unioffice"
+	_ee "github.com/gou-jjjj/unioffice/common/logger"
 )
 
 func (_bc *CommentsIds) UnmarshalXML(d *_e.Decoder, start _e.StartElement) error {

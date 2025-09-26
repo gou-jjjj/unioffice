@@ -14,9 +14,10 @@ package terms
 import (
 	_b "encoding/xml"
 	_gc "fmt"
-	_a "unioffice"
-	_e "unioffice/common/logger"
-	_ef "unioffice/schema/purl.org/dc/elements"
+
+	_a "github.com/gou-jjjj/unioffice"
+	_e "github.com/gou-jjjj/unioffice/common/logger"
+	_ef "github.com/gou-jjjj/unioffice/schema/purl.org/dc/elements"
 )
 
 func (_cgdc *Period) UnmarshalXML(d *_b.Decoder, start _b.StartElement) error {

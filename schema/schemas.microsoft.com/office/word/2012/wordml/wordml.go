@@ -16,11 +16,12 @@ import (
 	_e "fmt"
 	_c "regexp"
 	_df "time"
-	_a "unioffice"
-	_ae "unioffice/common/logger"
-	_b "unioffice/schema/soo/dml"
-	_ea "unioffice/schema/soo/ofc/sharedTypes"
-	_fc "unioffice/schema/soo/wml"
+
+	_a "github.com/gou-jjjj/unioffice"
+	_ae "github.com/gou-jjjj/unioffice/common/logger"
+	_b "github.com/gou-jjjj/unioffice/schema/soo/dml"
+	_ea "github.com/gou-jjjj/unioffice/schema/soo/ofc/sharedTypes"
+	_fc "github.com/gou-jjjj/unioffice/schema/soo/wml"
 )
 
 func NewCT_CommentEx() *CT_CommentEx { _ff := &CT_CommentEx{}; return _ff }

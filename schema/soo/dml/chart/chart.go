@@ -16,11 +16,12 @@ import (
 	_g "fmt"
 	_f "regexp"
 	_e "strconv"
-	_gf "unioffice"
-	_df "unioffice/common/logger"
-	_gfc "unioffice/schema/soo/dml"
-	_c "unioffice/schema/soo/dml/chartDrawing"
-	_cf "unioffice/schema/soo/ofc/sharedTypes"
+
+	_gf "github.com/gou-jjjj/unioffice"
+	_df "github.com/gou-jjjj/unioffice/common/logger"
+	_gfc "github.com/gou-jjjj/unioffice/schema/soo/dml"
+	_c "github.com/gou-jjjj/unioffice/schema/soo/dml/chartDrawing"
+	_cf "github.com/gou-jjjj/unioffice/schema/soo/ofc/sharedTypes"
 )
 
 type Chart struct{ CT_RelId }

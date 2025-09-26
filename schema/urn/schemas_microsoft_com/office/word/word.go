@@ -15,7 +15,8 @@ import (
 	_d "encoding/xml"
 	_b "fmt"
 	_a "strconv"
-	_f "unioffice"
+
+	_f "github.com/gou-jjjj/unioffice"
 )
 
 func (_ee *Wrap) MarshalXML(e *_d.Encoder, start _d.StartElement) error {

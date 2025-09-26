@@ -14,8 +14,9 @@ package elements
 import (
 	_c "encoding/xml"
 	_a "fmt"
-	_cb "unioffice"
-	_ag "unioffice/common/logger"
+
+	_cb "github.com/gou-jjjj/unioffice"
+	_ag "github.com/gou-jjjj/unioffice/common/logger"
 )
 
 // ValidateWithPath validates the ElementContainer and its children, prefixing error messages with path

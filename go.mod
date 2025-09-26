@@ -1,4 +1,4 @@
-module unioffice
+module github.com/gou-jjjj/unioffice
 
 go 1.23.0
 

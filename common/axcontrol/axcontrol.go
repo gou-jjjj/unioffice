@@ -17,10 +17,11 @@ import (
 	_ca "errors"
 	_c "fmt"
 	_e "io"
-	_g "unioffice/common/tempstorage"
-	_aa "unioffice/internal/mscfb"
-	_ef "unioffice/internal/mscfb/rw"
-	_dd "unioffice/schema/schemas.microsoft.com/office/activeX"
+
+	_g "github.com/gou-jjjj/unioffice/common/tempstorage"
+	_aa "github.com/gou-jjjj/unioffice/internal/mscfb"
+	_ef "github.com/gou-jjjj/unioffice/internal/mscfb/rw"
+	_dd "github.com/gou-jjjj/unioffice/schema/schemas.microsoft.com/office/activeX"
 )
 
 // GetWidth returns width of the Label in HIMETRIC (0.01mm)

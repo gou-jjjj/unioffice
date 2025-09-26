@@ -13,9 +13,10 @@ package utils
 
 import (
 	_d "bytes"
+
+	_b "github.com/gou-jjjj/unioffice/document"
+	_g "github.com/gou-jjjj/unioffice/document/convert"
 	_f "github.com/unidoc/unipdf/v4/model"
-	_b "unioffice/document"
-	_g "unioffice/document/convert"
 )
 
 // GetNumPages will try to get actual document page count by converting the document to a PDF first

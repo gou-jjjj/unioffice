@@ -41,8 +41,9 @@ import (
 	_a "strings"
 	_fg "sync"
 	_ed "time"
-	_ae "unioffice/common"
-	_cg "unioffice/common/logger"
+
+	_ae "github.com/gou-jjjj/unioffice/common"
+	_cg "github.com/gou-jjjj/unioffice/common/logger"
 )
 
 const (

@@ -40,25 +40,26 @@ import (
 	_ac "strings"
 	_bf "time"
 	_a "unicode"
-	_e "unioffice"
-	_bg "unioffice/color"
-	_ee "unioffice/common"
-	_cd "unioffice/common/axcontrol"
-	_gd "unioffice/common/logger"
-	_af "unioffice/common/tempstorage"
-	_ec "unioffice/internal/formatutils"
-	_de "unioffice/internal/license"
-	_cdg "unioffice/measurement"
-	_da "unioffice/schema/schemas.microsoft.com/office/activeX"
-	_ad "unioffice/schema/soo/dml"
-	_bd "unioffice/schema/soo/dml/chart"
-	_gg "unioffice/schema/soo/dml/picture"
-	_fae "unioffice/schema/soo/ofc/sharedTypes"
-	_eab "unioffice/schema/soo/pkg/relationships"
-	_deg "unioffice/schema/soo/wml"
-	_dc "unioffice/schema/urn/schemas_microsoft_com/vml"
-	_bgg "unioffice/vmldrawing"
-	_db "unioffice/zippkg"
+
+	_e "github.com/gou-jjjj/unioffice"
+	_bg "github.com/gou-jjjj/unioffice/color"
+	_ee "github.com/gou-jjjj/unioffice/common"
+	_cd "github.com/gou-jjjj/unioffice/common/axcontrol"
+	_gd "github.com/gou-jjjj/unioffice/common/logger"
+	_af "github.com/gou-jjjj/unioffice/common/tempstorage"
+	_ec "github.com/gou-jjjj/unioffice/internal/formatutils"
+	_de "github.com/gou-jjjj/unioffice/internal/license"
+	_cdg "github.com/gou-jjjj/unioffice/measurement"
+	_da "github.com/gou-jjjj/unioffice/schema/schemas.microsoft.com/office/activeX"
+	_ad "github.com/gou-jjjj/unioffice/schema/soo/dml"
+	_bd "github.com/gou-jjjj/unioffice/schema/soo/dml/chart"
+	_gg "github.com/gou-jjjj/unioffice/schema/soo/dml/picture"
+	_fae "github.com/gou-jjjj/unioffice/schema/soo/ofc/sharedTypes"
+	_eab "github.com/gou-jjjj/unioffice/schema/soo/pkg/relationships"
+	_deg "github.com/gou-jjjj/unioffice/schema/soo/wml"
+	_dc "github.com/gou-jjjj/unioffice/schema/urn/schemas_microsoft_com/vml"
+	_bgg "github.com/gou-jjjj/unioffice/vmldrawing"
+	_db "github.com/gou-jjjj/unioffice/zippkg"
 )
 
 // AddWatermarkText adds new watermark text to the document.
@@ -3684,7 +3685,7 @@ func (_fgfa *DocText) Text() string {
 func (_bgba NumberingDefinition) X() *_deg.CT_AbstractNum { return _bgba._feab }
 
 // SetHeadingLevel sets a heading level and style based on the level to a
-// paragraph.  The default styles for a new unioffice document support headings
+// paragraph.  The default styles for a new github.com/gou-jjjj/unioffice document support headings
 // from level 1 to 8.
 func (_dbecg ParagraphProperties) SetHeadingLevel(idx int) {
 	_dbecg.SetStyle(_dd.Sprintf("\u0048e\u0061\u0064\u0069\u006e\u0067\u0025d", idx))
@@ -7176,7 +7177,7 @@ func (_fbg AnchorDrawWrapOptions) SetFollowImageShape(val bool) {
 func (_ceff *chart) RelId() string { return _ceff._bfab }
 
 // SetStrict is a shortcut for document.SetConformance,
-// as one of these values from github.com/unidoc/unioffice/schema/soo/ofc/sharedTypes:
+// as one of these values from github.com/unidoc/github.com/gou-jjjj/unioffice/schema/soo/ofc/sharedTypes:
 // ST_ConformanceClassUnset, ST_ConformanceClassStrict or ST_ConformanceClassTransitional.
 func (_adef Document) SetStrict(strict bool) {
 	if strict {
@@ -8672,7 +8673,7 @@ func _debd() *_dc.Formulas {
 }
 
 // SetConformance sets conformance attribute of the document
-// as one of these values from github.com/unidoc/unioffice/schema/soo/ofc/sharedTypes:
+// as one of these values from github.com/unidoc/github.com/gou-jjjj/unioffice/schema/soo/ofc/sharedTypes:
 // ST_ConformanceClassUnset, ST_ConformanceClassStrict or ST_ConformanceClassTransitional.
 func (_geeee Document) SetConformance(conformanceAttr _fae.ST_ConformanceClass) {
 	_geeee._effc.ConformanceAttr = conformanceAttr

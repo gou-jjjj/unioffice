@@ -14,9 +14,10 @@ package excel
 import (
 	_d "encoding/xml"
 	_ea "fmt"
-	_f "unioffice"
-	_db "unioffice/common/logger"
-	_c "unioffice/schema/soo/ofc/sharedTypes"
+
+	_f "github.com/gou-jjjj/unioffice"
+	_db "github.com/gou-jjjj/unioffice/common/logger"
+	_c "github.com/gou-jjjj/unioffice/schema/soo/ofc/sharedTypes"
 )
 
 func (_gcf *CT_ClientDataChoice) UnmarshalXML(d *_d.Decoder, start _d.StartElement) error {

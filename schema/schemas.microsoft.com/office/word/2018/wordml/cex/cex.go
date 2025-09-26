@@ -15,10 +15,11 @@ import (
 	_c "encoding/xml"
 	_g "fmt"
 	_ab "time"
-	_f "unioffice"
-	_e "unioffice/common/logger"
-	_cd "unioffice/schema/schemas.microsoft.com/office/word/2018/wordml"
-	_ed "unioffice/schema/soo/ofc/sharedTypes"
+
+	_f "github.com/gou-jjjj/unioffice"
+	_e "github.com/gou-jjjj/unioffice/common/logger"
+	_cd "github.com/gou-jjjj/unioffice/schema/schemas.microsoft.com/office/word/2018/wordml"
+	_ed "github.com/gou-jjjj/unioffice/schema/soo/ofc/sharedTypes"
 )
 
 // Validate validates the CT_CommentExtensible and its children

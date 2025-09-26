@@ -10,7 +10,7 @@
 // terms that can be accessed at https://unidoc.io/eula/
 
 /*
-Package unioffice provides creation, reading, and writing of ECMA 376 Office Open
+Package github.com/gou-jjjj/unioffice provides creation, reading, and writing of ECMA 376 Office Open
 XML documents, spreadsheets and presentations.  It is still early in
 development, but is progressing quickly.  This library takes a slightly
 different approach from others, in that it starts by trying to support all of
@@ -25,8 +25,8 @@ spreadsheet.Workbook and presentation.Presentation), the other wrapper types are
 value types with non-pointer methods.  They exist solely to modify and return
 data from one or more XML types.
 
-The packages of interest are unioffice/document,
-unidoc/unioffice/v2/spreadsheet and unioffice/presentation.
+The packages of interest are github.com/gou-jjjj/unioffice/document,
+unidoc/github.com/gou-jjjj/unioffice/v2/spreadsheet and github.com/gou-jjjj/unioffice/presentation.
 */
 package unioffice
 
@@ -38,8 +38,9 @@ import (
 	_gd "reflect"
 	_g "strings"
 	_bb "unicode"
-	_eg "unioffice/algo"
-	_cd "unioffice/common/logger"
+
+	_eg "github.com/gou-jjjj/unioffice/algo"
+	_cd "github.com/gou-jjjj/unioffice/common/logger"
 )
 
 func _ddc(_df *any) {

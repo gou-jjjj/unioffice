@@ -36,26 +36,27 @@ import (
 	_fg "strconv"
 	_d "strings"
 	_gd "time"
-	_f "unioffice"
-	_bg "unioffice/chart"
-	_cea "unioffice/color"
-	_fa "unioffice/common"
-	_cf "unioffice/common/logger"
-	_ce "unioffice/common/tempstorage"
-	_db "unioffice/internal/formatutils"
-	_e "unioffice/internal/license"
-	_ae "unioffice/measurement"
-	_cg "unioffice/schema/soo/dml"
-	_dc "unioffice/schema/soo/dml/chart"
-	_fgf "unioffice/schema/soo/dml/spreadsheetDrawing"
-	_ge "unioffice/schema/soo/pkg/relationships"
-	_fge "unioffice/schema/soo/sml"
-	_fff "unioffice/spreadsheet/format"
-	_bac "unioffice/spreadsheet/formula"
-	_gb "unioffice/spreadsheet/reference"
-	_be "unioffice/spreadsheet/update"
-	_ea "unioffice/vmldrawing"
-	_dg "unioffice/zippkg"
+
+	_f "github.com/gou-jjjj/unioffice"
+	_bg "github.com/gou-jjjj/unioffice/chart"
+	_cea "github.com/gou-jjjj/unioffice/color"
+	_fa "github.com/gou-jjjj/unioffice/common"
+	_cf "github.com/gou-jjjj/unioffice/common/logger"
+	_ce "github.com/gou-jjjj/unioffice/common/tempstorage"
+	_db "github.com/gou-jjjj/unioffice/internal/formatutils"
+	_e "github.com/gou-jjjj/unioffice/internal/license"
+	_ae "github.com/gou-jjjj/unioffice/measurement"
+	_cg "github.com/gou-jjjj/unioffice/schema/soo/dml"
+	_dc "github.com/gou-jjjj/unioffice/schema/soo/dml/chart"
+	_fgf "github.com/gou-jjjj/unioffice/schema/soo/dml/spreadsheetDrawing"
+	_ge "github.com/gou-jjjj/unioffice/schema/soo/pkg/relationships"
+	_fge "github.com/gou-jjjj/unioffice/schema/soo/sml"
+	_fff "github.com/gou-jjjj/unioffice/spreadsheet/format"
+	_bac "github.com/gou-jjjj/unioffice/spreadsheet/formula"
+	_gb "github.com/gou-jjjj/unioffice/spreadsheet/reference"
+	_be "github.com/gou-jjjj/unioffice/spreadsheet/update"
+	_ea "github.com/gou-jjjj/unioffice/vmldrawing"
+	_dg "github.com/gou-jjjj/unioffice/zippkg"
 )
 
 // AddHyperlink adds a hyperlink to a sheet. Adding the hyperlink to the sheet
@@ -281,7 +282,7 @@ func (_adc Cell) IsEmpty() bool {
 func (_faaa Comments) X() *_fge.Comments { return _faaa._dfef }
 
 // RecalculateFormulas re-computes any computed formula values that are stored
-// in the sheet. As unioffice formula support is still new and not all functins are
+// in the sheet. As github.com/gou-jjjj/unioffice formula support is still new and not all functins are
 // supported, if formula execution fails either due to a parse error or missing
 // function, or erorr in the result (even if expected) the cached value will be
 // left empty allowing Excel to recompute it on load.
@@ -2477,7 +2478,7 @@ func (_fgadc *Workbook) AddImage(i _fa.Image) (_fa.ImageRef, error) {
 }
 
 // Reference returns the cell reference (e.g. "A4"). This is not required,
-// however both unioffice and Excel will always set it.
+// however both github.com/gou-jjjj/unioffice and Excel will always set it.
 func (_dfe Cell) Reference() string {
 	if _dfe._dced.RAttr != nil {
 		return *_dfe._dced.RAttr
@@ -4292,7 +4293,7 @@ func _bbfe(_fdge *Sheet) *evalContext {
 }
 
 // RecalculateFormulas re-computes any computed formula values that are stored
-// in the sheet. As unioffice formula support is still new and not all functins are
+// in the sheet. As github.com/gou-jjjj/unioffice formula support is still new and not all functins are
 // supported,  if formula execution fails either due to a parse error or missing
 // function, or erorr in the result (even if expected) the cached value will be
 // left empty allowing Excel to recompute it on load.

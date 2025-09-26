@@ -10,10 +10,10 @@
 // terms that can be accessed at https://unidoc.io/eula/
 
 // Package license helps manage commercial licenses and check if they
-// are valid for the version of UniOffice used.
+// are valid for the version of github.com/gou-jjjj/unioffice used.
 package license
 
-import _c "unioffice/internal/license"
+import _c "github.com/gou-jjjj/unioffice/internal/license"
 
 // GetMeteredState checks the currently used metered document usage status,
 // documents used and credits available.
@@ -23,7 +23,7 @@ func GetMeteredState() (_c.MeteredStatus, error) { return _c.GetMeteredState() }
 // Document usage is reported periodically for the product to function correctly.
 func SetMeteredKey(apiKey string) error { return _c.SetMeteredKey(apiKey) }
 
-// LegacyLicense holds the old-style unioffice license information.
+// LegacyLicense holds the old-style github.com/gou-jjjj/unioffice license information.
 type LegacyLicense = _c.LegacyLicense
 
 const (

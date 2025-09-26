@@ -17,7 +17,8 @@ import (
 	_fc "regexp"
 	_b "strconv"
 	_gb "strings"
-	_fa "unioffice/spreadsheet/update"
+
+	_fa "github.com/gou-jjjj/unioffice/spreadsheet/update"
 )
 
 // Update updates reference to point one of the neighboring cells with respect to the update type after removing a row/column.

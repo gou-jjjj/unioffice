@@ -16,11 +16,12 @@ import (
 	_aa "fmt"
 	_ae "strconv"
 	_a "time"
-	_g "unioffice"
-	_fd "unioffice/common/logger"
-	_d "unioffice/schema/soo/dml"
-	_dd "unioffice/schema/soo/ofc/sharedTypes"
-	_b "unioffice/schema/soo/wml"
+
+	_g "github.com/gou-jjjj/unioffice"
+	_fd "github.com/gou-jjjj/unioffice/common/logger"
+	_d "github.com/gou-jjjj/unioffice/schema/soo/dml"
+	_dd "github.com/gou-jjjj/unioffice/schema/soo/ofc/sharedTypes"
+	_b "github.com/gou-jjjj/unioffice/schema/soo/wml"
 )
 
 func (_ccbg ST_PenAlignment) ValidateWithPath(path string) error {

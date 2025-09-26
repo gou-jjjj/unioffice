@@ -12,10 +12,10 @@
 package drawing
 
 import (
-	_b "unioffice"
-	_e "unioffice/color"
-	_g "unioffice/measurement"
-	_dg "unioffice/schema/soo/dml"
+	_b "github.com/gou-jjjj/unioffice"
+	_e "github.com/gou-jjjj/unioffice/color"
+	_g "github.com/gou-jjjj/unioffice/measurement"
+	_dg "github.com/gou-jjjj/unioffice/schema/soo/dml"
 )
 
 func (_fc LineProperties) clearFill() {

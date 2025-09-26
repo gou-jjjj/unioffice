@@ -15,9 +15,10 @@ import (
 	_e "encoding/xml"
 	_ga "fmt"
 	_g "strconv"
-	_a "unioffice"
-	_ef "unioffice/common/logger"
-	_c "unioffice/schema/soo/ofc/sharedTypes"
+
+	_a "github.com/gou-jjjj/unioffice"
+	_ef "github.com/gou-jjjj/unioffice/common/logger"
+	_c "github.com/gou-jjjj/unioffice/schema/soo/ofc/sharedTypes"
 )
 
 func (_dffgd ST_FType) String() string {

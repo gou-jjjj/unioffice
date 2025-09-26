@@ -15,9 +15,10 @@ import (
 	_a "encoding/xml"
 	_e "fmt"
 	_g "strconv"
-	_f "unioffice"
-	_ag "unioffice/common/logger"
-	_b "unioffice/schema/soo/dml"
+
+	_f "github.com/gou-jjjj/unioffice"
+	_ag "github.com/gou-jjjj/unioffice/common/logger"
+	_b "github.com/gou-jjjj/unioffice/schema/soo/dml"
 )
 
 func (_cbfgg *CT_When) MarshalXML(e *_a.Encoder, start _a.StartElement) error {

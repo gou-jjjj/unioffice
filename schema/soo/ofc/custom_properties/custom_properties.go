@@ -16,10 +16,11 @@ import (
 	_f "fmt"
 	_ga "strconv"
 	_gb "time"
-	_ee "unioffice"
-	_e "unioffice/common/logger"
-	_a "unioffice/schema/soo/ofc/docPropsVTypes"
-	_eec "unioffice/schema/soo/ofc/sharedTypes"
+
+	_ee "github.com/gou-jjjj/unioffice"
+	_e "github.com/gou-jjjj/unioffice/common/logger"
+	_a "github.com/gou-jjjj/unioffice/schema/soo/ofc/docPropsVTypes"
+	_eec "github.com/gou-jjjj/unioffice/schema/soo/ofc/sharedTypes"
 )
 
 func (_bdf *Properties) MarshalXML(e *_g.Encoder, start _g.StartElement) error {

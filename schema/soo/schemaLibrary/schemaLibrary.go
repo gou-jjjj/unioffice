@@ -14,8 +14,9 @@ package schemaLibrary
 import (
 	_c "encoding/xml"
 	_e "fmt"
-	_eb "unioffice"
-	_a "unioffice/common/logger"
+
+	_eb "github.com/gou-jjjj/unioffice"
+	_a "github.com/gou-jjjj/unioffice/common/logger"
 )
 
 // ValidateWithPath validates the CT_Schema and its children, prefixing error messages with path

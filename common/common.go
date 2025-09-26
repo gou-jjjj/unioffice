@@ -31,20 +31,21 @@ import (
 	_bg "strconv"
 	_df "strings"
 	_ab "time"
-	_bbb "unioffice"
-	_ac "unioffice/common/logger"
-	_acd "unioffice/common/tempstorage"
-	_db "unioffice/common/tempstorage/diskstore"
-	_ca "unioffice/internal/sort"
-	_af "unioffice/measurement"
-	_fe "unioffice/schema/soo/dml"
-	_fee "unioffice/schema/soo/ofc/custom_properties"
-	_fce "unioffice/schema/soo/ofc/docPropsVTypes"
-	_bgd "unioffice/schema/soo/ofc/extended_properties"
-	_bf "unioffice/schema/soo/pkg/content_types"
-	_aff "unioffice/schema/soo/pkg/metadata/core_properties"
-	_g "unioffice/schema/soo/pkg/relationships"
-	_abb "unioffice/zippkg"
+
+	_bbb "github.com/gou-jjjj/unioffice"
+	_ac "github.com/gou-jjjj/unioffice/common/logger"
+	_acd "github.com/gou-jjjj/unioffice/common/tempstorage"
+	_db "github.com/gou-jjjj/unioffice/common/tempstorage/diskstore"
+	_ca "github.com/gou-jjjj/unioffice/internal/sort"
+	_af "github.com/gou-jjjj/unioffice/measurement"
+	_fe "github.com/gou-jjjj/unioffice/schema/soo/dml"
+	_fee "github.com/gou-jjjj/unioffice/schema/soo/ofc/custom_properties"
+	_fce "github.com/gou-jjjj/unioffice/schema/soo/ofc/docPropsVTypes"
+	_bgd "github.com/gou-jjjj/unioffice/schema/soo/ofc/extended_properties"
+	_bf "github.com/gou-jjjj/unioffice/schema/soo/pkg/content_types"
+	_aff "github.com/gou-jjjj/unioffice/schema/soo/pkg/metadata/core_properties"
+	_g "github.com/gou-jjjj/unioffice/schema/soo/pkg/relationships"
+	_abb "github.com/gou-jjjj/unioffice/zippkg"
 )
 
 func (_adf CustomProperties) setPropertyHelper(_egf *_fee.CT_Property, _cddf bool) {
@@ -556,7 +557,7 @@ func (_bcfc CustomProperties) SetPropertyAsBstr(name string, bstr string) {
 }
 
 // Company returns the name of the company that created the document.
-// For unioffice created documents, it defaults to github.com/unidoc/unioffice
+// For github.com/gou-jjjj/unioffice created documents, it defaults to github.com/unidoc/github.com/gou-jjjj/unioffice
 func (_bfg AppProperties) Company() string {
 	if _bfg._ef.Company != nil {
 		return *_bfg._ef.Company
@@ -864,7 +865,7 @@ func (_ccb Relationship) SetID(ID string) { _ccb._cage.IdAttr = ID }
 func (_cagg TableStyles) TblStyle() []*_fe.CT_TableStyle { return _cagg._gcb.TblStyle }
 
 // Pages returns total number of pages which are saved by the text editor which produced the document.
-// For unioffice created documents, it is 0.
+// For github.com/gou-jjjj/unioffice created documents, it is 0.
 func (_fd AppProperties) Pages() int32 {
 	if _fd._ef.Pages != nil {
 		return *_fd._ef.Pages
@@ -937,7 +938,7 @@ func (_dae CoreProperties) Author() string {
 }
 
 // Application returns the name of the application that created the document.
-// For unioffice created documents, it defaults to github.com/unidoc/unioffice
+// For github.com/gou-jjjj/unioffice created documents, it defaults to github.com/unidoc/github.com/gou-jjjj/unioffice
 func (_fcb AppProperties) Application() string {
 	if _fcb._ef.Application != nil {
 		return *_fcb._ef.Application

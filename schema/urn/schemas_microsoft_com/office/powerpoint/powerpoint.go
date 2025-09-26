@@ -14,7 +14,8 @@ package powerpoint
 import (
 	_e "encoding/xml"
 	_ge "fmt"
-	_d "unioffice"
+
+	_d "github.com/gou-jjjj/unioffice"
 )
 
 type CT_Rel struct {

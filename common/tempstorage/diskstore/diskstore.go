@@ -17,7 +17,8 @@ import (
 	_ad "io/ioutil"
 	_d "os"
 	_af "strings"
-	_ab "unioffice/common/tempstorage"
+
+	_ab "github.com/gou-jjjj/unioffice/common/tempstorage"
 )
 
 // SetAsStorage sets temp storage as a disk storage

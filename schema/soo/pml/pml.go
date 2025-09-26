@@ -16,10 +16,11 @@ import (
 	_c "fmt"
 	_e "strconv"
 	_ac "time"
-	_f "unioffice"
-	_ea "unioffice/common/logger"
-	_d "unioffice/schema/soo/dml"
-	_db "unioffice/schema/soo/ofc/sharedTypes"
+
+	_f "github.com/gou-jjjj/unioffice"
+	_ea "github.com/gou-jjjj/unioffice/common/logger"
+	_d "github.com/gou-jjjj/unioffice/schema/soo/dml"
+	_db "github.com/gou-jjjj/unioffice/schema/soo/ofc/sharedTypes"
 )
 
 func (_fbed *CT_SlideMasterTextStyles) MarshalXML(e *_b.Encoder, start _b.StartElement) error {

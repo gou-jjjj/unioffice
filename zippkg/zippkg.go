@@ -21,10 +21,11 @@ import (
 	_gb "sort"
 	_c "strings"
 	_f "time"
-	_cc "unioffice"
-	_eae "unioffice/common/tempstorage"
-	_b "unioffice/internal/sort"
-	_ea "unioffice/schema/soo/pkg/relationships"
+
+	_cc "github.com/gou-jjjj/unioffice"
+	_eae "github.com/gou-jjjj/unioffice/common/tempstorage"
+	_b "github.com/gou-jjjj/unioffice/internal/sort"
+	_ea "github.com/gou-jjjj/unioffice/schema/soo/pkg/relationships"
 )
 
 // AddFileFromStorage reads a file from internal storage and adds it at a given path to a zip file.
@@ -344,7 +345,7 @@ func (_dcc *DecodeMap) IndexFor(path string) int { return _dcc._da[path] }
 // decoded directly (e.g. images)
 //
 // rel is the actual relationship so its target can be modified if the source
-// target doesn't match where unioffice will write the file (e.g. read in
+// target doesn't match where github.com/gou-jjjj/unioffice will write the file (e.g. read in
 // 'xl/worksheets/MyWorksheet.xml' and we'll write out
 // 'xl/worksheets/sheet1.xml')
 type OnNewRelationshipFunc func(_bb *DecodeMap, _ge, _ee string, _fc []*_a.File, _aa *_ea.Relationship, _bbd Target) error

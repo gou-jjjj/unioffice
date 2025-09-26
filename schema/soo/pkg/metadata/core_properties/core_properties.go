@@ -15,9 +15,10 @@ import (
 	_f "encoding/xml"
 	_g "fmt"
 	_d "time"
-	_cb "unioffice"
-	_db "unioffice/common/logger"
-	_e "unioffice/schema/soo/ofc/sharedTypes"
+
+	_cb "github.com/gou-jjjj/unioffice"
+	_db "github.com/gou-jjjj/unioffice/common/logger"
+	_e "github.com/gou-jjjj/unioffice/schema/soo/ofc/sharedTypes"
 )
 
 func (_dcb *CT_Keyword) UnmarshalXML(d *_f.Decoder, start _f.StartElement) error {

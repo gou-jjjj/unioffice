@@ -17,9 +17,10 @@ import (
 	_e "regexp"
 	_d "strconv"
 	_fa "time"
-	_b "unioffice"
-	_ed "unioffice/common/logger"
-	_a "unioffice/schema/soo/ofc/sharedTypes"
+
+	_b "github.com/gou-jjjj/unioffice"
+	_ed "github.com/gou-jjjj/unioffice/common/logger"
+	_a "github.com/gou-jjjj/unioffice/schema/soo/ofc/sharedTypes"
 )
 
 func (_dgdde *ST_PresetCameraType) UnmarshalXMLAttr(attr _f.Attr) error {

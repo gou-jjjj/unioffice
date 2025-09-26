@@ -15,13 +15,14 @@ import (
 	_g "encoding/xml"
 	_ee "fmt"
 	_e "strconv"
-	_a "unioffice"
-	_d "unioffice/common/logger"
-	_gg "unioffice/schema/soo/ofc/sharedTypes"
-	_ea "unioffice/schema/soo/wml"
-	_bg "unioffice/schema/urn/schemas_microsoft_com/office/excel"
-	_ag "unioffice/schema/urn/schemas_microsoft_com/office/powerpoint"
-	_af "unioffice/schema/urn/schemas_microsoft_com/office/word"
+
+	_a "github.com/gou-jjjj/unioffice"
+	_d "github.com/gou-jjjj/unioffice/common/logger"
+	_gg "github.com/gou-jjjj/unioffice/schema/soo/ofc/sharedTypes"
+	_ea "github.com/gou-jjjj/unioffice/schema/soo/wml"
+	_bg "github.com/gou-jjjj/unioffice/schema/urn/schemas_microsoft_com/office/excel"
+	_ag "github.com/gou-jjjj/unioffice/schema/urn/schemas_microsoft_com/office/powerpoint"
+	_af "github.com/gou-jjjj/unioffice/schema/urn/schemas_microsoft_com/office/word"
 )
 
 type Line struct{ CT_Line }

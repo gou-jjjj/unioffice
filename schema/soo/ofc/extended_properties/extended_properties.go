@@ -13,9 +13,10 @@ package extended_properties
 
 import (
 	_gf "encoding/xml"
-	_c "unioffice"
-	_f "unioffice/common/logger"
-	_fb "unioffice/schema/soo/ofc/docPropsVTypes"
+
+	_c "github.com/gou-jjjj/unioffice"
+	_f "github.com/gou-jjjj/unioffice/common/logger"
+	_fb "github.com/gou-jjjj/unioffice/schema/soo/ofc/docPropsVTypes"
 )
 
 type CT_VectorVariant struct {

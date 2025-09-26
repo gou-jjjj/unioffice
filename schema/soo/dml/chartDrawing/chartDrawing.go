@@ -15,9 +15,10 @@ import (
 	_c "encoding/xml"
 	_g "fmt"
 	_b "strconv"
-	_gd "unioffice"
-	_f "unioffice/common/logger"
-	_e "unioffice/schema/soo/dml"
+
+	_gd "github.com/gou-jjjj/unioffice"
+	_f "github.com/gou-jjjj/unioffice/common/logger"
+	_e "github.com/gou-jjjj/unioffice/schema/soo/dml"
 )
 
 func (_cec *CT_GraphicFrame) UnmarshalXML(d *_c.Decoder, start _c.StartElement) error {

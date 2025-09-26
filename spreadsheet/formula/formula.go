@@ -13,7 +13,7 @@
 // implemented with a ragel grammar while the the parser is implemented with
 // goyacc. The entire formula grammar is not implemented and not all functions
 // are supported yet. For compatibility sake, upon failure to parse or execute a
-// formula, unioffice leaves cached formula results blank allowing Excel to compute
+// formula, github.com/gou-jjjj/unioffice leaves cached formula results blank allowing Excel to compute
 // formulas upon load. This is similar to what most other Excel libraries do
 // which leave all cached results blank instead of attempting to execute
 // formulas.
@@ -21,7 +21,7 @@
 // The unit tests for this package are unique in that we can take advantage of
 // "cached" formula results that Excel/LibreOffice write to the sheet.  These
 // are the computed results of a formula in string form.  By comparing these
-// values to the value computed by the unioffice evaluation of the formula, adding
+// values to the value computed by the github.com/gou-jjjj/unioffice evaluation of the formula, adding
 // a new test means just adding a new formula to one of the reference sheets
 // with Excel. During the unit test, we evaluate the formula and compare it to
 // the value that Excel computed.  If they're the same, the test passes.
@@ -42,12 +42,13 @@ import (
 	_de "sync"
 	_g "time"
 	_bf "unicode"
-	_adg "unioffice/common/logger"
-	_cg "unioffice/internal/sort"
-	_be "unioffice/internal/wildcard"
-	_c "unioffice/spreadsheet/format"
-	_ddb "unioffice/spreadsheet/reference"
-	_ac "unioffice/spreadsheet/update"
+
+	_adg "github.com/gou-jjjj/unioffice/common/logger"
+	_cg "github.com/gou-jjjj/unioffice/internal/sort"
+	_be "github.com/gou-jjjj/unioffice/internal/wildcard"
+	_c "github.com/gou-jjjj/unioffice/spreadsheet/format"
+	_ddb "github.com/gou-jjjj/unioffice/spreadsheet/reference"
+	_ac "github.com/gou-jjjj/unioffice/spreadsheet/update"
 )
 
 // ConstArrayExpr is a constant array expression.
@@ -6248,7 +6249,7 @@ func (_dbce Result) AsNumber() Result {
 // Average implements the AVERAGE function. It differs slightly from Excel (and
 // agrees with LibreOffice) in that boolean values are counted. As an example,
 // AVERAGE of two cells containing TRUE & FALSE is 0.5 in LibreOffice and
-// #DIV/0! in Excel. unioffice will return 0.5 in this case.
+// #DIV/0! in Excel. github.com/gou-jjjj/unioffice will return 0.5 in this case.
 func Average(args []Result) Result {
 	_dbac, _fbac := _egcg(args, false)
 	if _fbac == 0 {

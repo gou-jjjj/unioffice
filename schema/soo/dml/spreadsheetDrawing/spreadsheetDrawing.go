@@ -15,9 +15,10 @@ import (
 	_c "encoding/xml"
 	_b "fmt"
 	_cd "strconv"
-	_be "unioffice"
-	_g "unioffice/common/logger"
-	_a "unioffice/schema/soo/dml"
+
+	_be "github.com/gou-jjjj/unioffice"
+	_g "github.com/gou-jjjj/unioffice/common/logger"
+	_a "github.com/gou-jjjj/unioffice/schema/soo/dml"
 )
 
 type EG_ObjectChoicesChoice struct {

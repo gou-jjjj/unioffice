@@ -14,12 +14,13 @@ package chart
 import (
 	_g "fmt"
 	_a "math/rand"
-	_e "unioffice"
-	_af "unioffice/color"
-	_gc "unioffice/drawing"
-	_cf "unioffice/measurement"
-	_ad "unioffice/schema/soo/dml"
-	_cd "unioffice/schema/soo/dml/chart"
+
+	_e "github.com/gou-jjjj/unioffice"
+	_af "github.com/gou-jjjj/unioffice/color"
+	_gc "github.com/gou-jjjj/unioffice/drawing"
+	_cf "github.com/gou-jjjj/unioffice/measurement"
+	_ad "github.com/gou-jjjj/unioffice/schema/soo/dml"
+	_cd "github.com/gou-jjjj/unioffice/schema/soo/dml/chart"
 )
 
 // SetText sets the series text.

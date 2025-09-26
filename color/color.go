@@ -15,9 +15,10 @@ package color
 
 import (
 	_fe "fmt"
+
+	_f "github.com/gou-jjjj/unioffice"
+	_ba "github.com/gou-jjjj/unioffice/schema/soo/wml"
 	_a "github.com/unidoc/unipdf/v4/creator"
-	_f "unioffice"
-	_ba "unioffice/schema/soo/wml"
 )
 
 var Ivory = Color{0xFF, 0xFF, 0xF0, 255, false}

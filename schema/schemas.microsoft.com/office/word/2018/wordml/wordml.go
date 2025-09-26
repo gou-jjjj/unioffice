@@ -15,10 +15,11 @@ import (
 	_c "encoding/xml"
 	_b "fmt"
 	_db "time"
-	_g "unioffice"
-	_dg "unioffice/common/logger"
-	_gf "unioffice/schema/soo/dml"
-	_de "unioffice/schema/soo/ofc/sharedTypes"
+
+	_g "github.com/gou-jjjj/unioffice"
+	_dg "github.com/gou-jjjj/unioffice/common/logger"
+	_gf "github.com/gou-jjjj/unioffice/schema/soo/dml"
+	_de "github.com/gou-jjjj/unioffice/schema/soo/ofc/sharedTypes"
 )
 
 // ValidateWithPath validates the CT_Extension and its children, prefixing error messages with path
